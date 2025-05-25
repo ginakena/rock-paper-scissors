@@ -137,8 +137,8 @@ body {
   margin-bottom: 0.5rem;
 }
 
-/* Responsive adjustments */
-@media (max-width: 768px) {
+
+@media (max-width: 750px) {
   .game-option {
     width: 8rem;
     padding: 1rem;
@@ -177,7 +177,7 @@ body {
   }
 }
 
-/* Small Mobile Devices (<= 400px) */
+
 @media (max-width: 400px) {
   .options-container {
     gap: 0.5rem;
@@ -193,7 +193,6 @@ body {
   }
 }
 
-/* Landscape Mobile Optimization */
 @media (max-height: 500px) and (orientation: landscape) {
   .game-container {
     transform: scale(0.9);
