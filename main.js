@@ -49,7 +49,7 @@ function getComputerChoice() {
 
 function determineWinner(playerChoice, computerChoice) {
   if (playerChoice === computerChoice) {
-    return { result: "CURRENTLY DRAW" };
+    return { result: "DRAW" };
   }
 
   const winConditions = {
